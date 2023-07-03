@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Image Uploader</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="img/download.png" />
+</head>
+<body>
+    <h1>Image uploader</h1>
+    <section class="main">
+        <div class="maincontainer">
+            <form method='post' action="/upload" id="myform" enctype='multipart/form-data'>
+                <img src="img/download.png" />
+                <div class="form-container">
+                    <label for="image-title">Image Title:</label>
+                    <input type="text" id="image-title" name="image-title">
+                    <span class="errortitle"></span>
+                    <label for="image-file">Attach Image (Jpeg , Png or Gif):</label>
+                    <input type="file" id="image-file" name="image-file">
+                    <span class="errorimage"></span>
+                    <div class="btn">
+                        <button type="submit" name="submit" id="submit-btn">Upload</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
