@@ -67,4 +67,3 @@ E:\WebApplication1\WebApplication1\obj\Debug\net7.0\refint\WebApplication1.dll
 E:\WebApplication1\WebApplication1\obj\Debug\net7.0\WebApplication1.pdb
 E:\WebApplication1\WebApplication1\obj\Debug\net7.0\WebApplication1.genruntimeconfig.cache
 E:\WebApplication1\WebApplication1\obj\Debug\net7.0\ref\WebApplication1.dll
-E:\WebApplication1\WebApplication1\bin\Debug\net7.0\uploads\images.json
