@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "OTDPyh+as/wqAdCLSLYdURnVP94eO0wJBQaTmtjEUcE=",
+  "Hash": "D7yQzWagcE7O7xa+V2wDlsJYsHP798EExc8rwjbKmp0=",
   "Source": "WebApplication1",
   "BasePath": "_content/WebApplication1",
   "Mode": "Default",
@@ -66,23 +66,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
-    },
-    {
-      "Identity": "E:\\WebApplication1\\WebApplication1\\wwwroot\\program.cs",
-      "SourceId": "WebApplication1",
-      "SourceType": "Discovered",
-      "ContentRoot": "E:\\WebApplication1\\WebApplication1\\wwwroot\\",
-      "BasePath": "_content/WebApplication1",
-      "RelativePath": "program.cs",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\program.cs"
     },
     {
       "Identity": "E:\\WebApplication1\\WebApplication1\\wwwroot\\script.js",

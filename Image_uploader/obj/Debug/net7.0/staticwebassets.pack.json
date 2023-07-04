@@ -13,10 +13,6 @@
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "E:\\WebApplication1\\WebApplication1\\wwwroot\\program.cs",
-      "PackagePath": "staticwebassets\\program.cs"
-    },
-    {
       "Id": "E:\\WebApplication1\\WebApplication1\\wwwroot\\script.js",
       "PackagePath": "staticwebassets\\script.js"
     },

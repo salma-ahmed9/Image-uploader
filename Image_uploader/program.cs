@@ -23,7 +23,8 @@ app.MapPost("/upload", async (HttpContext context) =>
     {
         context.Response.StatusCode = 400;
         context.Response.ContentType = "text/html";
-        await context.Response.WriteAsync(@"<h1 style=""font-size: 45px; padding-top:20px; text-align: center; color: red;"">  Please enter title for the image !</h1>");
+        await context.Response.WriteAsync(@"<h1 style=""font-size: 45px; padding-top:20px; text-align: center; color: red;"">  
+        Please enter title for the image !</h1>");
         return;
     }
 
@@ -31,7 +32,8 @@ app.MapPost("/upload", async (HttpContext context) =>
     {
         context.Response.StatusCode = 400;
         context.Response.ContentType = "text/html";
-        await context.Response.WriteAsync(@"<h1 style=""font-size: 45px; padding-top:20px; text-align: center; color: red;"">  Please choose an image !</h1>");
+        await context.Response.WriteAsync(@"<h1 style=""font-size: 45px; padding-top:20px; text-align: center; color: red;"">  
+        Please choose an image !</h1>");
         return;
     }
 
@@ -40,7 +42,8 @@ app.MapPost("/upload", async (HttpContext context) =>
     {
         context.Response.StatusCode = 400;
         context.Response.ContentType = "text/html";
-        await context.Response.WriteAsync(@"<h1 style=""font-size: 45px; padding-top:20px; text-align: center; color: red;"">  Please choose correct image extension !</h1>");
+        await context.Response.WriteAsync(@"<h1 style=""font-size: 45px; padding-top:20px; text-align: center; color: red;""> 
+        Please choose correct image extension !</h1>");
         return;
     }
 
